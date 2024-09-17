@@ -14,7 +14,8 @@ class Driver:
         options.app = 'D:\\PyProjects\\Vi_Release_50_10-Sept-24.apk'
         options.app_package = 'com.mventus.selfcare.activity'
         options.app_activity = 'com.mventus.selfcare.activity.MainActivity'
+        options.full_reset = True
 
         # Initialize the Appium driver
-        driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', options=options)
+        driver = webdriver.Remote('http://localhost:4723', options=options)
         return driver
