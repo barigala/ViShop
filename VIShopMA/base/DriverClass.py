@@ -11,10 +11,13 @@ class Driver:
         options.platform_version = '14'
         options.device_name = 'POCO X6 5G'
         options.udid = '79003d15'
-        options.app = 'D:\\PyProjects\\Vi_Release_50_10-Sept-24.apk'
+        #options.app = 'D:\\PyProjects\\Vi_Release_50_10-Sept-24.apk'
         options.app_package = 'com.mventus.selfcare.activity'
         options.app_activity = 'com.mventus.selfcare.activity.MainActivity'
-        options.full_reset = True
+        #options.full_reset = False
+        options.auto_grant_permissions = True
+        options.no_reset = True
+
 
         # Initialize the Appium driver
         driver = webdriver.Remote('http://localhost:4723', options=options)
