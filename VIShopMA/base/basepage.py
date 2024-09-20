@@ -1,7 +1,9 @@
 import re
 import time
 
+import allure
 import self
+from allure_commons.types import AttachmentType
 from appium.webdriver.common.appiumby import AppiumBy
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common import ElementNotVisibleException, ElementNotSelectableException, NoSuchElementException
@@ -57,9 +59,9 @@ class BasePage:
         try:
             locatorType = locatorType.lower()
             element=self.waitForElement(locatorValue,locatorType)
-            self.log.info("Element found with LocatoryType" + locatorType + "with the locatorValue:" + locatorValue)
+            self.log.info("Element found with LocatoryType" + locatorType + " with the locatorValue:" + locatorValue)
         except:
-            self.log.info("Element not found with LocatoryType" + locatorType + "and with the locatorValue:" + locatorValue)
+            self.log.info("Element not found with LocatoryType" + locatorType + " and with the locatorValue:" + locatorValue)
         return element
 
     def clickElement(self, locatorValue, locatorType="id"):
@@ -68,10 +70,11 @@ class BasePage:
             locatorType = locatorType.lower()
             element=self.waitForElement(locatorValue,locatorType)
             element.click()
-            self.log.info("Clicked on Element with LocatoryType" + locatorType + "with the locatorValue:" + locatorValue)
+            self.log.info("Clicked on Element with LocatoryType" + locatorType + " with the locatorValue:" + locatorValue)
         except:
-            self.log.info("Unable to click on Element with LocatoryType" + locatorType + "and with the locatorValue:" + locatorValue)
-
+            self.log.info("Unable to click on Element with LocatoryType" + locatorType + " and with the locatorValue:" + locatorValue)
+            self.takeScreenshot(locatorType)
+            assert False
 
     def sendText(self,text, locatorValue, locatorType="id"):
         element = None
@@ -79,9 +82,11 @@ class BasePage:
             locatorType = locatorType.lower()
             element=self.waitForElement(locatorValue,locatorType)
             element.send_keys(text)
-            self.log.info("Send text on Element with LocatoryType" + locatorType + "with the locatorValue:" + locatorValue)
+            self.log.info("Send text on Element with LocatoryType" + locatorType + " with the locatorValue:" + locatorValue)
         except:
-            self.log.info("Element not found with LocatoryType" + locatorType + "and with the locatorValue:" + locatorValue)
+            self.log.info("Element not found with LocatoryType" + locatorType + " and with the locatorValue:" + locatorValue)
+            self.takeScreenshot(locatorType)
+            assert False
 
     def isDisplayed(self, locatorValue, locatorType="id"):
         element = None
@@ -89,10 +94,11 @@ class BasePage:
             locatorType = locatorType.lower()
             element=self.waitForElement(locatorValue,locatorType)
             element.is_displayed()
-            self.log.info("Element with LocatoryType" + locatorType + "with the locatorValue:" + locatorValue+"is displayed")
+            self.log.info("Element with LocatoryType" + locatorType + " with the locatorValue:" + locatorValue+"is displayed")
             return True
         except:
-            self.log.info("Element not found with LocatoryType" + locatorValue + "and with the locatorValue:" + locatorType + "is not displayed")
+            self.log.info("Element not found with LocatoryType" + locatorValue + " and with the locatorValue:" + locatorType + "is not displayed")
+            self.takeScreenshot(locatorType)
             return False
 
     def clickKeypadButton(self, digit):
@@ -237,8 +243,8 @@ class BasePage:
             self.driver.save_screenshot(screenshotPath)
             self.log.info("Screenshot saved at: " + screenshotPath)
         except:
-            self.log.info("Unable to save screenshot"+ screenshotPath)
-            self.log.info("Unable to save screenshot"+ screenshotPath)
+            self.log.info("Unable to save screenshot to the path: "+ screenshotPath)
+
 
     def pressHomeButton(driver):
         driver.press_keycode(3)  # Keycode for the HOME button
@@ -253,3 +259,6 @@ class BasePage:
         except Exception as e:
             self.log.error(f"Error pressing BACK button: {str(e)}")
 
+
+    def takeScreenshot(self,text):
+        allure.attach(self.driver.get_screenshot_as_png(text),name=text, attachment_type=AttachmentType.PNG)
