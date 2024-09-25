@@ -1,7 +1,7 @@
 import unittest
 import pytest
-from driver import driver
-
+import self
+from appium import webdriver
 from VIShopMA.pages.AccountPage import accountpage
 import VIShopMA.utils.customLogger as cl
 
@@ -9,29 +9,20 @@ import VIShopMA.utils.customLogger as cl
 class AccountPageTest(unittest.TestCase):
 
     @pytest.fixture(autouse=True)
-    def classObjects(self):
-        ap = accountpage()
+    def classObjects(self, request):
+        self.driver = request.cls.driver  # Using class-level driver from beforeClass fixture in the test case class.  # This is a workaround for the lack of pytest fixture scope control.  # Normally, you'd use a fixture to provide the driver to each test method.  # However, since we're using autouse=True, the driver will be provided to the test class itself, not to each test method.  # This allows us to share the
+        self.ap = accountpage(self.driver)
 
     @pytest.mark.run(order=1)
-    def test_NavtoAccountPage(ap=None):
+    def test_NavtoAccountPage(self):
         cl.allureLogs("Navigated to account page")
-        ap.ClickaccountButton()
-        ap.verifyPagetitle()
-        ap.NavCC()
-        driver.press_keycode(4)  # Keycode for the BACK button
-        ap.NavCoupons()
+        self.ap.ClickaccountButton()
+        self.ap.verifyPagetitle()
+        self.ap.NavCC()
+        self.driver.press_keycode(4)  # Keycode for the BACK button
+        self.ap.NavCoupons()
+        self.driver.press_keycode(4)  # Keycode for the BACK button
+        self.ap.NavOrders()
+        self.driver.press_keycode(4)  # Keycode for the BACK button
+        self.ap.NavSavdPay()
 
-
-
-"""
-bp.waitAndPerformAction('click','shop','text')
-ap.ClickaccountButton()
-ap.verifyPagetitle()
-ap.NavOrders()
-bp.pressBackButton()
-ap.NavCC()
-bp.pressBackButton()
-ap.NavCoupons()
-bp.pressBackButton()
-ap.NavSavdPay()
-"""

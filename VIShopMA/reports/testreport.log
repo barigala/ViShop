@@ -1,0 +1,12 @@
+25/09/24 02:14:14 PM Wednesday - BasePage - INFO : Clicked on Element with LocatoryTypexpath with the locatorValue://android.view.ViewGroup[@content-desc="DS_SHOPshop-account-icon.webp"]
+25/09/24 02:14:15 PM Wednesday - BasePage - INFO : Screenshot saved at: ../screenshot/Clicked on Account Button_25_09_2024_14_14_14.png
+25/09/24 02:14:16 PM Wednesday - BasePage - INFO : Element with LocatoryTypetext with the locatorValue:accountis displayed
+25/09/24 02:14:18 PM Wednesday - BasePage - INFO : Screenshot saved at: ../screenshot/Verified on Account Page Title_25_09_2024_14_14_18.png
+25/09/24 02:14:19 PM Wednesday - BasePage - INFO : Clicked on Element with LocatoryTypetext with the locatorValue:credit cards
+25/09/24 02:14:21 PM Wednesday - BasePage - INFO : Screenshot saved at: ../screenshot/Navigated to Credit Cards_25_09_2024_14_14_21.png
+25/09/24 02:14:22 PM Wednesday - BasePage - INFO : Clicked on Element with LocatoryTypetext with the locatorValue:coupons
+25/09/24 02:14:25 PM Wednesday - BasePage - INFO : Screenshot saved at: ../screenshot/Navigated to Coupons_25_09_2024_14_14_24.png
+25/09/24 02:14:26 PM Wednesday - BasePage - INFO : Clicked on Element with LocatoryTypetext with the locatorValue:your orders
+25/09/24 02:14:29 PM Wednesday - BasePage - INFO : Screenshot saved at: ../screenshot/Navigataed to My Orders_25_09_2024_14_14_28.png
+25/09/24 02:14:31 PM Wednesday - BasePage - INFO : Clicked on Element with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="saved payments"]
+25/09/24 02:14:33 PM Wednesday - BasePage - INFO : Screenshot saved at: ../screenshot/Navigated to Saved Payments_25_09_2024_14_14_33.png
