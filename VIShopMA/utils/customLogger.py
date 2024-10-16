@@ -1,5 +1,6 @@
 import inspect
 import logging
+import os
 
 import allure
 
@@ -15,7 +16,13 @@ def customLogger():
     logger.setLevel(logging.DEBUG)
 
     # 4.) Create the fileHandler to save the logs in the file, 'w' is given so that the logs will reset for every run, input 'a' to store all logs without resetting
-    fileHandler = logging.FileHandler("../reports/testreport.log", mode='w')
+    #fileHandler = logging.FileHandler("../reports/testreport.log", mode='w')
+
+    log_directory = "../reports"
+    if not os.path.exists(log_directory):
+        os.makedirs(log_directory)
+
+    fileHandler = logging.FileHandler(os.path.join(log_directory, "testreport.log"), mode='w')
 
     # 5.) Set the logLevel for fileHandler
     fileHandler.setLevel(logging.DEBUG)

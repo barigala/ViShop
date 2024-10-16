@@ -29,8 +29,8 @@ def beforeClass(request):
                 print(f'Failed to delete {file_path}. Reason: {e}')
 
     print('Before Class')
-    driver_instance = Driver()
-    driver = driver_instance.getDriverMethod()
+    driver1 = Driver()
+    driver = driver1.getDriverMethod()
     if request.cls is not None:
         request.cls.driver = driver
     yield driver

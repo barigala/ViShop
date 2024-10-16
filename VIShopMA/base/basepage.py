@@ -260,5 +260,13 @@ class BasePage:
             self.log.error(f"Error pressing BACK button: {str(e)}")
 
 
-    def takeScreenshot(self,text):
-        allure.attach(self.driver.get_screenshot_as_png(text),name=text, attachment_type=AttachmentType.PNG)
+    #def takeScreenshot(self,text):
+    #    allure.attach(self.driver.get_screenshot_as_png(text),name=text, attachment_type=AttachmentType.PNG)
+
+    def takeScreenshot(self, description):
+        try:
+            screenshot = self.driver.get_screenshot_as_png()  # Get the screenshot as PNG
+            allure.attach(screenshot, name=description, attachment_type=AttachmentType.PNG)
+            self.log.info(f"Screenshot taken and attached to Allure: {description}")
+        except Exception as e:
+            self.log.error(f"Failed to take screenshot: {str(e)}")
