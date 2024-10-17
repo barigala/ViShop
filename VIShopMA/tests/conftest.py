@@ -1,15 +1,26 @@
 import os
 import shutil
-
 import pytest
 import time
-
 from setuptools.compat.py311 import shutil_rmtree
-
 from VIShopMA.base.DriverClass import Driver
 
 
 ALLURE_RESULTS_PATH = 'D:\PyProjects\ViShop\VIShopMA\reports\allurereports'
+
+@pytest.fixture(scope="session")
+def session_driver():
+    """This fixture initializes the Appium driver once for the entire session."""
+    print("Initializing Appium driver for the session...")
+    driver = Driver().getDriverMethod()  # Initializes the driver
+    yield driver
+    print("Quitting Appium driver for the session...")
+    driver.quit()  # Quits driver after all tests are done
+
+@pytest.fixture(scope="class")
+def class_setup(request, session_driver):
+    """This fixture provides the session-level driver to all test classes."""
+    request.cls.driver = session_driver  # Set session driver for test class
 
 @pytest.fixture(scope='class')
 def beforeClass(request):

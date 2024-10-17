@@ -21,6 +21,7 @@ class accountpage(BasePage):
     _savedpay = '//android.widget.TextView[@text="saved payments"]'  # xpath
 
     def ClickaccountButton(self):
+        self.waitForElement(self._accountButton, "xpath")
         self.clickElement(self._accountButton, "xpath")
         cl.allureLogs("Clicked on Account Button")
         self.screenShot("Clicked on Account Button")

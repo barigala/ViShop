@@ -1,54 +1,54 @@
-16/10/24 04:47:08 PM Wednesday - BasePage - INFO : Clicked on Element with LocatoryTypetext with the locatorValue:enter mobile number
-16/10/24 04:47:09 PM Wednesday - BasePage - INFO : Screenshot saved at: ../screenshot/Clicked on Mobile Number Input Field_16_10_2024_16_47_08.png
-16/10/24 04:47:11 PM Wednesday - BasePage - INFO : Clicked on Element with LocatoryTypetext with the locatorValue:NONE OF THE ABOVE
-16/10/24 04:47:11 PM Wednesday - BasePage - INFO : Screenshot saved at: ../screenshot/Clicked on Dialog Box_16_10_2024_16_47_11.png
-16/10/24 04:47:12 PM Wednesday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="7"]
-16/10/24 04:47:13 PM Wednesday - BasePage - INFO : Clicked on keypad button with digit '7' using XPATH locator.
-16/10/24 04:47:13 PM Wednesday - BasePage - INFO : Successfully sent the number '7' via keypad.
-16/10/24 04:47:14 PM Wednesday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="5"]
-16/10/24 04:47:15 PM Wednesday - BasePage - INFO : Clicked on keypad button with digit '5' using XPATH locator.
-16/10/24 04:47:15 PM Wednesday - BasePage - INFO : Successfully sent the number '5' via keypad.
-16/10/24 04:47:16 PM Wednesday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="0"]
-16/10/24 04:47:17 PM Wednesday - BasePage - INFO : Clicked on keypad button with digit '0' using XPATH locator.
-16/10/24 04:47:17 PM Wednesday - BasePage - INFO : Successfully sent the number '0' via keypad.
-16/10/24 04:47:18 PM Wednesday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="7"]
-16/10/24 04:47:19 PM Wednesday - BasePage - INFO : Clicked on keypad button with digit '7' using XPATH locator.
-16/10/24 04:47:19 PM Wednesday - BasePage - INFO : Successfully sent the number '7' via keypad.
-16/10/24 04:47:20 PM Wednesday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="2"]
-16/10/24 04:47:21 PM Wednesday - BasePage - INFO : Clicked on keypad button with digit '2' using XPATH locator.
-16/10/24 04:47:21 PM Wednesday - BasePage - INFO : Successfully sent the number '2' via keypad.
-16/10/24 04:47:22 PM Wednesday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="3"]
-16/10/24 04:47:23 PM Wednesday - BasePage - INFO : Clicked on keypad button with digit '3' using XPATH locator.
-16/10/24 04:47:23 PM Wednesday - BasePage - INFO : Successfully sent the number '3' via keypad.
-16/10/24 04:47:24 PM Wednesday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="3"]
-16/10/24 04:47:25 PM Wednesday - BasePage - INFO : Clicked on keypad button with digit '3' using XPATH locator.
-16/10/24 04:47:25 PM Wednesday - BasePage - INFO : Successfully sent the number '3' via keypad.
-16/10/24 04:47:26 PM Wednesday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="0"]
-16/10/24 04:47:27 PM Wednesday - BasePage - INFO : Clicked on keypad button with digit '0' using XPATH locator.
-16/10/24 04:47:27 PM Wednesday - BasePage - INFO : Successfully sent the number '0' via keypad.
-16/10/24 04:47:28 PM Wednesday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="9"]
-16/10/24 04:47:29 PM Wednesday - BasePage - INFO : Clicked on keypad button with digit '9' using XPATH locator.
-16/10/24 04:47:29 PM Wednesday - BasePage - INFO : Successfully sent the number '9' via keypad.
-16/10/24 04:47:30 PM Wednesday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="5"]
-16/10/24 04:47:31 PM Wednesday - BasePage - INFO : Clicked on keypad button with digit '5' using XPATH locator.
-16/10/24 04:47:31 PM Wednesday - BasePage - INFO : Successfully sent the number '5' via keypad.
-16/10/24 04:47:32 PM Wednesday - BasePage - INFO : Screenshot saved at: ../screenshot/Entered Mobile Number_16_10_2024_16_47_32.png
-16/10/24 04:47:32 PM Wednesday - BasePage - INFO : Clicked on Element with LocatoryTypetext with the locatorValue:send OTP
-16/10/24 04:47:33 PM Wednesday - BasePage - INFO : Screenshot saved at: ../screenshot/Clicked on OTP button_16_10_2024_16_47_32.png
-16/10/24 04:47:35 PM Wednesday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue:(//android.widget.TextView[@text="1"])[2]
-16/10/24 04:47:36 PM Wednesday - BasePage - INFO : Clicked on OTP button with digit '1' using XPATH locator '(//android.widget.TextView[@text="1"])[2]'.
-16/10/24 04:47:36 PM Wednesday - BasePage - INFO : Successfully sent the OTP '1' via keypad.
-16/10/24 04:47:38 PM Wednesday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue:(//android.widget.TextView[@text="2"])[2]
-16/10/24 04:47:38 PM Wednesday - BasePage - INFO : Clicked on OTP button with digit '2' using XPATH locator '(//android.widget.TextView[@text="2"])[2]'.
-16/10/24 04:47:38 PM Wednesday - BasePage - INFO : Successfully sent the OTP '2' via keypad.
-16/10/24 04:47:41 PM Wednesday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue:(//android.widget.TextView[@text="3"])[2]
-16/10/24 04:47:41 PM Wednesday - BasePage - INFO : Clicked on OTP button with digit '3' using XPATH locator '(//android.widget.TextView[@text="3"])[2]'.
-16/10/24 04:47:41 PM Wednesday - BasePage - INFO : Successfully sent the OTP '3' via keypad.
-16/10/24 04:47:43 PM Wednesday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue:(//android.widget.TextView[@text="4"])[2]
-16/10/24 04:47:44 PM Wednesday - BasePage - INFO : Clicked on OTP button with digit '4' using XPATH locator '(//android.widget.TextView[@text="4"])[2]'.
-16/10/24 04:47:44 PM Wednesday - BasePage - INFO : Successfully sent the OTP '4' via keypad.
-16/10/24 04:47:45 PM Wednesday - BasePage - INFO : Screenshot saved at: ../screenshot/Entered OTP Number_16_10_2024_16_47_45.png
-16/10/24 04:47:47 PM Wednesday - BasePage - INFO : Clicked on Element with LocatoryTypetext with the locatorValue:login with OTP
-16/10/24 04:47:47 PM Wednesday - BasePage - INFO : Screenshot saved at: ../screenshot/Clicked on Login with OTP button_16_10_2024_16_47_47.png
-16/10/24 04:47:57 PM Wednesday - BasePage - INFO : Clicked on Element with LocatoryTypetext with the locatorValue:shop
-16/10/24 04:47:58 PM Wednesday - BasePage - INFO : Screenshot saved at: ../screenshot/Clicked on Shop button_16_10_2024_16_47_57.png
+17/10/24 12:37:32 PM Thursday - BasePage - INFO : Clicked on Element with LocatoryTypetext with the locatorValue:enter mobile number
+17/10/24 12:37:33 PM Thursday - BasePage - INFO : Screenshot saved at: ../screenshot/Clicked on Mobile Number Input Field_17_10_2024_12_37_32.png
+17/10/24 12:37:33 PM Thursday - BasePage - INFO : Clicked on Element with LocatoryTypetext with the locatorValue:NONE OF THE ABOVE
+17/10/24 12:37:34 PM Thursday - BasePage - INFO : Screenshot saved at: ../screenshot/Clicked on Dialog Box_17_10_2024_12_37_33.png
+17/10/24 12:37:34 PM Thursday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="7"]
+17/10/24 12:37:35 PM Thursday - BasePage - INFO : Clicked on keypad button with digit '7' using XPATH locator.
+17/10/24 12:37:35 PM Thursday - BasePage - INFO : Successfully sent the number '7' via keypad.
+17/10/24 12:37:36 PM Thursday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="5"]
+17/10/24 12:37:38 PM Thursday - BasePage - INFO : Clicked on keypad button with digit '5' using XPATH locator.
+17/10/24 12:37:38 PM Thursday - BasePage - INFO : Successfully sent the number '5' via keypad.
+17/10/24 12:37:38 PM Thursday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="0"]
+17/10/24 12:37:39 PM Thursday - BasePage - INFO : Clicked on keypad button with digit '0' using XPATH locator.
+17/10/24 12:37:39 PM Thursday - BasePage - INFO : Successfully sent the number '0' via keypad.
+17/10/24 12:37:40 PM Thursday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="7"]
+17/10/24 12:37:42 PM Thursday - BasePage - INFO : Clicked on keypad button with digit '7' using XPATH locator.
+17/10/24 12:37:42 PM Thursday - BasePage - INFO : Successfully sent the number '7' via keypad.
+17/10/24 12:37:42 PM Thursday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="2"]
+17/10/24 12:37:44 PM Thursday - BasePage - INFO : Clicked on keypad button with digit '2' using XPATH locator.
+17/10/24 12:37:44 PM Thursday - BasePage - INFO : Successfully sent the number '2' via keypad.
+17/10/24 12:37:45 PM Thursday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="3"]
+17/10/24 12:37:46 PM Thursday - BasePage - INFO : Clicked on keypad button with digit '3' using XPATH locator.
+17/10/24 12:37:46 PM Thursday - BasePage - INFO : Successfully sent the number '3' via keypad.
+17/10/24 12:37:47 PM Thursday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="3"]
+17/10/24 12:37:48 PM Thursday - BasePage - INFO : Clicked on keypad button with digit '3' using XPATH locator.
+17/10/24 12:37:48 PM Thursday - BasePage - INFO : Successfully sent the number '3' via keypad.
+17/10/24 12:37:49 PM Thursday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="0"]
+17/10/24 12:37:50 PM Thursday - BasePage - INFO : Clicked on keypad button with digit '0' using XPATH locator.
+17/10/24 12:37:50 PM Thursday - BasePage - INFO : Successfully sent the number '0' via keypad.
+17/10/24 12:37:51 PM Thursday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="9"]
+17/10/24 12:37:52 PM Thursday - BasePage - INFO : Clicked on keypad button with digit '9' using XPATH locator.
+17/10/24 12:37:52 PM Thursday - BasePage - INFO : Successfully sent the number '9' via keypad.
+17/10/24 12:37:53 PM Thursday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue://android.widget.TextView[@text="5"]
+17/10/24 12:37:54 PM Thursday - BasePage - INFO : Clicked on keypad button with digit '5' using XPATH locator.
+17/10/24 12:37:54 PM Thursday - BasePage - INFO : Successfully sent the number '5' via keypad.
+17/10/24 12:37:55 PM Thursday - BasePage - INFO : Screenshot saved at: ../screenshot/Entered Mobile Number_17_10_2024_12_37_55.png
+17/10/24 12:37:56 PM Thursday - BasePage - INFO : Clicked on Element with LocatoryTypetext with the locatorValue:send OTP
+17/10/24 12:37:56 PM Thursday - BasePage - INFO : Screenshot saved at: ../screenshot/Clicked on OTP button_17_10_2024_12_37_56.png
+17/10/24 12:37:58 PM Thursday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue:(//android.widget.TextView[@text="1"])[2]
+17/10/24 12:37:59 PM Thursday - BasePage - INFO : Clicked on OTP button with digit '1' using XPATH locator '(//android.widget.TextView[@text="1"])[2]'.
+17/10/24 12:37:59 PM Thursday - BasePage - INFO : Successfully sent the OTP '1' via keypad.
+17/10/24 12:38:00 PM Thursday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue:(//android.widget.TextView[@text="2"])[2]
+17/10/24 12:38:01 PM Thursday - BasePage - INFO : Clicked on OTP button with digit '2' using XPATH locator '(//android.widget.TextView[@text="2"])[2]'.
+17/10/24 12:38:01 PM Thursday - BasePage - INFO : Successfully sent the OTP '2' via keypad.
+17/10/24 12:38:02 PM Thursday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue:(//android.widget.TextView[@text="3"])[2]
+17/10/24 12:38:02 PM Thursday - BasePage - INFO : Clicked on OTP button with digit '3' using XPATH locator '(//android.widget.TextView[@text="3"])[2]'.
+17/10/24 12:38:02 PM Thursday - BasePage - INFO : Successfully sent the OTP '3' via keypad.
+17/10/24 12:38:03 PM Thursday - BasePage - INFO : Element found with LocatoryTypexpath with the locatorValue:(//android.widget.TextView[@text="4"])[2]
+17/10/24 12:38:04 PM Thursday - BasePage - INFO : Clicked on OTP button with digit '4' using XPATH locator '(//android.widget.TextView[@text="4"])[2]'.
+17/10/24 12:38:04 PM Thursday - BasePage - INFO : Successfully sent the OTP '4' via keypad.
+17/10/24 12:38:05 PM Thursday - BasePage - INFO : Screenshot saved at: ../screenshot/Entered OTP Number_17_10_2024_12_38_04.png
+17/10/24 12:38:05 PM Thursday - BasePage - INFO : Clicked on Element with LocatoryTypetext with the locatorValue:login with OTP
+17/10/24 12:38:05 PM Thursday - BasePage - INFO : Screenshot saved at: ../screenshot/Clicked on Login with OTP button_17_10_2024_12_38_05.png
+17/10/24 12:38:22 PM Thursday - BasePage - INFO : Clicked on Element with LocatoryTypetext with the locatorValue:shop
+17/10/24 12:38:23 PM Thursday - BasePage - INFO : Screenshot saved at: ../screenshot/Clicked on Shop button_17_10_2024_12_38_22.png
